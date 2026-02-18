@@ -5,7 +5,7 @@ import datetime
 
 # --- 1. CONFIGURATION (The Brain) ---
 # Replace with your actual key from Step 1
-GEMINI_KEY = "AIzaSyCWX5JvVMUMGAL2708P1dKtBsUJ5hXvuCU" 
+GEMINI_KEY = "AIzaSyBM6rWROXFKmnUsBPjgpVOpJIwUvF5iVmY" 
 genai.configure(api_key=GEMINI_KEY)
 
 # --- 2. THE SECRET DATABASE (Your Moat) ---
@@ -126,4 +126,5 @@ if submit and user_name and details:
                 st.write("2. Send screenshot to (Your WhatsApp)")
                 st.write("3. Get the list instantly.")
         else:
+
             st.info("Tip: Always find the 'Grievance Officer' email for faster replies.")
