@@ -128,3 +128,4 @@ if submit and user_name and details:
         else:
 
             st.info("Tip: Always find the 'Grievance Officer' email for faster replies.")
+
