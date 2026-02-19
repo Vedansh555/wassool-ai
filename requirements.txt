@@ -1,3 +1,15 @@
+# Core Streamlit framework
 streamlit
-google-generativeai>=0.8.3
+
+# High-speed inference engine for Llama-3
+groq
+
+# PDF generation engine
 fpdf
+
+# News and data parsing
+feedparser
+
+# API communication
+requests
+datetime
